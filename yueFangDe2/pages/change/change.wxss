@@ -1,0 +1,57 @@
+/* pages/change/change.wxss */
+.main{
+  padding: 12px;
+}
+.main>view{
+  border-bottom: 1px solid #EFEFEF;
+  padding: 45rpx 0;  
+}
+.main>view>view:nth-of-type(1){
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main>view>view:nth-of-type(2){
+ margin-left: 30px;
+ font-size: 13px;
+ color: #858585;
+ padding: 5px 15px 10px 0;
+}
+.top>view text:nth-of-type(1){
+  width: 20px;
+  height:20px;
+  font-size: 12px;
+  color: #fff;
+  background: #4A94FF;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 2px 5px;
+}
+.top>view text:nth-of-type(2){
+  
+  font-size: 15px;
+  color: #0A0A0A;
+  padding: 5px 2px;
+}
+.main>view image{
+  width: 18px;
+  height: 12px;
+}
+
+.foot{
+  padding: 15px;
+  /* border-top:1px solid #ccc; */
+}
+.foot button{
+  background: #4A94FF;
+  font-size: 14px;
+}
+.true{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.open{
+  display: none
+}

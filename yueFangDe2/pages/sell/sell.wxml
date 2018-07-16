@@ -1,0 +1,63 @@
+<!--pages/sell/sell.wxml-->
+<view class='all'>
+  <view class='head'>
+    <image src='../images/img/444@2x.png'></image>
+    <view class='step'>
+      <view class='s1'>
+        <view>1</view>
+        <view>完善信息</view>
+      </view>
+      <view class='s2'>
+        <view>2</view>
+        <view>提交审核</view>
+      </view>
+      <view class='s3'>
+        <view>3</view>
+        <view>审核通过</view>
+      </view>
+    </view>
+  </view>
+  <view class='main'>
+    <view class='m1'>
+      <view>姓名:</view>
+        <input type="text" placeholder='请输入姓名' placeholder-class='placeholder'/>
+      </view>
+      <view class='m2'>
+        <view>联系方式:</view>
+        <input  type="text" placeholder='请输入联系方式' placeholder-class='placeholder'/>
+      </view>
+      <view class='m3'>
+        <view>管理人类型:</view>
+        <input  type="text" placeholder='请输入管理人类型' placeholder-class='placeholder'/>
+      </view>
+      <view class='m4'>
+        <view>企业全称:</view>
+        <input  type="text" placeholder='请输入企业全称' placeholder-class='placeholder'/>
+      </view>
+      <view class='m5'>
+        <view>登记编码:</view>
+        <input  type="text" placeholder='请输入登记编码' placeholder-class='placeholder'/>
+      </view>
+      <view class='m6'>
+        <view>出让原因:</view>
+        <input  type="text" placeholder='请输入出让原因' placeholder-class='placeholder'/>
+      </view>
+      <view class='m7'>
+        <view>出让比例:</view>
+        <input  type="text" placeholder='请输入出让比例' placeholder-class='placeholder'/>
+      </view>
+      <view class='m8'>
+        <view>是否已发行产品:</view>
+        <radio-group class="radio-group" bindchange="radioChange">
+          <label class="radio">
+            <radio value="1" checked="checked"/>是
+            <radio value="2"/>否
+          </label>
+        </radio-group>
+      </view>
+      <view class='foot'>
+        <button type="primary" bindtap="primary" hover-class="none"> 提交 </button>
+      </view>
+    </view>
+    
+  </view>

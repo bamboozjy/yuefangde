@@ -1,0 +1,42 @@
+<!--pages/baoming/baoming.wxml-->
+<view class='all'>
+
+
+    <view class='top'>
+      <image src='{{con.activity_url}}'></image>
+      <view class='box'>
+        <view class='title'>{{con.activity_name}}</view>
+        <view class='time'>{{time}}</view>
+      </view>
+    </view>
+    <view class='mid' wx:if='{{show}}'>
+      <view class='left'>
+        <view class='title'>{{con.activity_name}}</view>
+        <view class='money'>¥ {{total}}</view>
+      </view>
+      <view class='right'>
+        <button class='reduce' bindtap='reduce' hover-class="none" data-id='{{con.activity_id}}'> - </button>
+        <text>{{num}}</text>
+        <button class='add' bindtap='add' hover-class="none" data-id='{{con.activity_id}}'> + </button>
+      </view>
+    </view>
+    
+    <view class='mid group' wx:if='{{!show}}' wx:for='{{group}}' wx:key='{{item.asm_id}}' id='{{act==item.asm_id?"active":""}}'>
+      <view class='left'>
+        <view class='title'>{{item.asm_acspec_name_str}}</view>
+        <view class='money'>¥ {{item.total}}</view>
+      </view>
+      <view class='right'>
+        <button class='reduce' bindtap='spec_reduce' hover-class="none" data-id='{{item.asm_id}}'> - </button>
+        <text>{{item.num}}</text>
+        <button class='add' bindtap='spec_add' hover-class="none" data-id='{{item.asm_id}}'> + </button>
+      </view>
+    </view>
+
+
+  <view class='foot'>
+    <view class='total'>合计金额： <text>¥{{total}}</text> </view>
+    <view class='btn' bindtap="primary" data-id='{{con.activity_id}}'> 确认支付 </view>
+  </view>
+
+</view>

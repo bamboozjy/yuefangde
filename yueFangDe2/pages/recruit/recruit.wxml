@@ -1,0 +1,57 @@
+<!--pages/recruit/recruit.wxml-->
+<view class='all'>
+  <view class='head'>
+    <image src='../images/img/222@2x.png'></image>
+    <view class='step'>
+      <view class='s1'>
+        <view>1</view>
+        <view>完善信息</view>
+      </view>
+      <view class='s2'>
+        <view>2</view>
+        <view>提交审核</view>
+      </view>
+      <view class='s3'>
+        <view>3</view>
+        <view>审核通过</view>
+      </view>
+    </view>
+  </view>
+  <view class='main'>
+    <view class='m1'>
+      <view>联系人:</view>
+        <input type="text" placeholder='请输入姓名' placeholder-class='placeholder'/>
+      </view>
+      <view class='m2'>
+        <view>联系方式:</view>
+        <input  type="text" placeholder='请输入联系方式' placeholder-class='placeholder'/>
+      </view>
+      <view class='m3'>
+        <view>公司名称:</view>
+        <input  type="text" placeholder='请输入公司名称' placeholder-class='placeholder'/>
+      </view>
+      <view class='m4'>
+        <view>主营业务:</view>
+        <input  type="text" placeholder='请输入主营业务' placeholder-class='placeholder'/>
+      </view>
+      <view class='m5'>
+        <view>岗位名称:</view>
+        <input  type="text" placeholder='请输入岗位名称' placeholder-class='placeholder'/>
+      </view>
+      <view class='m6'>
+        <view>薪资待遇:</view>
+        <input  type="text" placeholder='请输入薪资待遇' placeholder-class='placeholder'/>
+      </view>
+      
+      <view class='m8'>
+        <view class='tit'>工作内容及岗位要求:</view>
+        <view class="section">
+          <textarea bindblur="bindTextAreaBlur" placeholder="请输入工作内容及岗位要求" />
+        </view>
+      </view>
+      <view class='foot'>
+        <button type="primary" bindtap="primary" hover-class="none"> 提交 </button>
+      </view>
+    </view>
+    
+  </view>

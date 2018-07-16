@@ -1,0 +1,47 @@
+<!--pages/recordfirst/recordfirst.wxml-->
+
+<view class='all'>
+  
+    <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/016c75fff508b78a38736ad6b6bd6ec8.png'></image>
+    <!-- <image src='../images/img/产品设计banner@2x.png'></image> -->
+ 
+  <view class='main'>
+    <view class='m1'>
+      <view class='title'>签订协议</view>
+      <view class='borders'></view>
+      <view class='con'>与悦方淂签订服务外包协议，设立工作组，安排专人对接。</view>
+    </view>
+    <view class='m2'>
+      <view class='title'>工商注册与工商登记</view>
+      <view class='bordery'></view>
+      <view class='con'>根据各地区优惠政策筛选最优地区作为注册地，设计股权结构，
+并填写寄送相关资料至金融办会审。安排合作会计事务所代办
+银行开户、国地税落户等。</view>
+    </view>
+    <view class='m3'>
+      <view class='title'>备案工作准备</view>
+      <view class='borders'></view>
+      <view class='con'>悦方淂组建备案工作组,规划甲方备案流程及时间、发送材料清
+单并完成材料收集。
+</view>
+    </view>
+    <view class='m4'>
+      <view class='title'>内部筹划指导</view>
+      <view class='bordery'></view>
+      <view class='con'>悦方淂将为甲方设计组织框架、辅助建立公司各个规章制度、
+撰写展业计划书、安排合作律师事务所上门尽调访谈并出具法
+律意见书。</view>
+    </view>
+    <view class='m5'>
+      <view class='title'>中基协系统填报</view>
+      <view class='borders'></view>
+      <view class='con'>悦方淂将安排工作人员根据收集的材料，完成中基协系统的填
+报内容，根据反馈整改相应架构内容直至备案通过。</view>
+    </view>
+
+
+  </view>
+  <view class='foot'>
+    <button type="primary" open-type="contact" hover-class="none"> 立即咨询 </button>
+  </view>
+</view>

@@ -1,0 +1,156 @@
+<!--index.wxml-->
+<!--<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="p1">
+    <text class="go1" bindtap="bindViewTap1">到p1</text>
+  </view>
+  <view class="p2">
+    <text class="go2" bindtap="bindViewTap2">到p2</text>
+  </view> 
+  <view class="p1">
+    <text class="go1" bindtap="bindViewTap1">到p1</text>
+  </view>
+</view>-->
+<view class="all">
+  <swiper indicator-dots="{{indicatorDots}}" class="lbt"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="top">
+    <view>
+      <image src="../images/icon/dengjibeian@2x.png"/>
+      <text>登记备案</text>
+    </view>
+    <view>
+      <image src="../images/icon/yunyingwaibao@2x.png"/>
+      <text>运营外包</text>
+    </view>
+    <view>
+      <image src="../images/icon/gaoguanliepin@2x.png"/>
+      <text>高管猎聘</text>
+    </view>
+    <view>
+      <image src="../images/icon/zhuanyepeixun@2x.png"/>
+      <text>专业培训</text>
+    </view>
+  </view>
+  <view class="middle-top">
+    <text class="jishi" bindtap="">私圈集市</text>
+    <text class="zixun" bindtap="">私募咨询</text>
+    <text class="baoming" bindtap="">活动报名</text>
+  </view>
+  <!-- 私圈集市 -->
+  <view class='jishi-content'>
+    <view>
+        <view>
+          <image src="../images/img/招聘信息@2x.png"/>
+          <text>招·聘·信·息</text>
+        </view>
+        <view>
+          <image src="../images/img/人才信息@2x.png"/>
+          <text>人·才·信·息</text>
+        </view>
+    </view>
+     <view>
+        <view>
+          <image src="../images/img/私募并购@2x.png"/>
+          <text>私·募·并·购</text>
+        </view>
+        <view>
+          <image src="../images/img/金融圈群@2x.png"/>
+          <text>金·融·圈·群</text>
+        </view>
+    </view>
+  </view>
+  <!-- 私圈集市 -->
+
+
+  <!-- 私募咨询 -->
+  <view class="zixun-content">
+    <view>
+      <image src="../images/icon/zhuanyepeixun@2x.png"/>
+      <text>专业培训</text>
+    </view>
+    <view>
+      <image src="../images/icon/zhuanyepeixun@2x.png"/>
+      <text>专业培训</text>
+    </view>
+    <view>
+      <image src="../images/icon/zhuanyepeixun@2x.png"/>
+      <text>专业培训</text>
+    </view>
+    <view>
+      <image src="../images/icon/zhuanyepeixun@2x.png"/>
+      <text>专业培训</text>
+    </view>
+  </view>
+  <!-- 私募咨询 -->
+
+  <!-- 活动报名 -->
+  <view class="baoming">
+    <view class="middle-mid">
+      <view class="middle-mid-t">
+        <view>
+          <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'/>
+          <text>宁波近期会议</text>
+        </view>
+        <view>
+          <text class='detail'>详情</text>
+        </view>
+      </view>
+      <view class="middle-mid-b">
+        <view>
+          <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'/>
+          <text>全国高端培训</text>
+        </view>
+        <view>
+          <text class='detail'>详情</text>
+        </view>
+      </view>
+    </view>
+    
+
+    <view class="middle-bot">
+      <view class="middle-bot-t">
+        <text>|</text> 今日头条
+      </view>
+      <view class="middle-bot-b">
+        <view class="">
+          <view>政府发布《国务院办公厅关于进一步压缩企业开办时间压缩企业开办时间</view>
+          <view>2018-05-18</view>
+        </view>
+        <view class="">
+          <view>中国基金业协会洪磊会长《私募基金自律管理的逻辑上自律管理的逻辑上</view>
+          <view>2018-05-18</view>
+        </view>
+        <view class="">
+          <view>政府发布《国务院办公厅关于进一步压缩企业开办时间压缩企业开办时间</view>
+          <view>2018-05-18</view>
+        </view>
+        <view class="">
+          <view>中国基金业协会洪磊会长《私募基金自律管理的逻辑上自律管理的逻辑上</view>
+          <view>2018-05-18</view>
+        </view>
+      </view>
+      
+    </view>
+  </view>
+  <!-- 活动报名 -->
+
+
+
+</view>
+  

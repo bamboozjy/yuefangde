@@ -1,0 +1,46 @@
+<!--pages/detail/detail.wxml-->
+<view class='all'>
+
+  <view class='main'>
+    <view class='m1'>
+      <view class='title'>{{con.activity_name}}
+      </view>
+      <view class='time'>{{con.activity_start}}</view>
+      <rich-text nodes="{{con.activity_content}}"></rich-text>
+    </view>
+    <!-- <view class='m2'>
+      <view class='tit'>
+        <text>1</text>
+        <text class='title'>资产管理行业发展现状</text>
+      </view>
+      <view class='con'>描述了中国资管格局以及中国证监会监管下的行业格局，并指 出：证券期货公司资管结构优化私募基金快速发展，行业优胜 劣汰效果明显
+      </view>
+    </view>
+    <view class='m3'>
+      <view class='tit'>
+        <text>2</text>
+        <text class='title'>私募基金的自律监管逻辑</text>
+      </view>
+      <view class='con'>以资金的来源和投向为主线，阐述了私募基金的自律监管逻辑。 主要包括如下两方面：资金来源必须为合格投资者；在资金的 投向端须以服务实体经济为己任，必须有利于形成资本金；要 保证基础资产真实有效、合理估值，并充分做好风险防范。
+      </view>
+    </view>
+    <view class='m4'>
+      <view class='tit'>
+        <text>3</text>
+        <text class='title'>协会私募基金自律管理</text>
+      </view>
+      <view class='con'>
+        <view>1、建立健全"7+2"自律监管体系</view>
+        <view>2、从登记备案源头，规范展业秩序</view>
+        <view>3、构建市场信用约束机制—信息系统建设、推动“三重博弈”、分类公示制度、百度私募地图、信用信息报告</view>
+        <view>4、建立健全多渠道投诉调节机制</view>
+        <view>5、加强自律执纪</view>
+      </view>
+    </view> -->
+    
+  </view>
+
+  <view class='foot'>
+    <button type="primary" bindtap="primary" hover-class="none" data-id='{{con.activity_id}}'> 立即报名 </button>
+  </view>
+</view>

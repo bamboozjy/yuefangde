@@ -1,0 +1,28 @@
+<!--pages/news/news.wxml-->
+<view class="all">
+  <view class='header'>
+      <view class='tit'>{{msg.article_title}}</view>
+      <view class='time'>{{msg.create_time}}</view>
+  </view>
+  <view class='main'>
+    <rich-text nodes="{{msg.article_details}}" bindtap="tap"></rich-text>
+  </view>
+</view>
+  <!-- <view class='foot'>
+    <view class='nav'>
+      <view class='good'>精选评论</view>
+      <view class='write' bindtap='write' data-id='{{msg.article_id}}'>写评论</view>
+    </view>
+    <view class='content'>
+      <view class='items'>
+        <view class='img'>
+          <image src='{{}}'></image>
+        </view>
+        <view class='right'>
+          <view class='user'>{{mingzi}}</view>
+          <view class='user_con'>{{neirong}}</view>
+        </view>
+      </view>
+    </view>
+        
+  </view> -->

@@ -1,0 +1,28 @@
+<!--pages/change/change.wxml-->
+<view class='all'>
+
+  <view class='main'>
+
+    <block wx:for="{{article}}" wx:key="key">
+      <view class='main1'>
+        <view class='top' bindtap='change' data-idx='{{index}}' data-id='{{item.id}}'>
+          <view>
+            <text class='iconpic'>变</text>
+            <text class='title'>{{item.title}}</text>
+          </view>
+          <image wx:if="{{item.show }}" src="../images/icon/more_unfold.png"></image>
+          <image wx:if="{{!item.show }}" src="../images/icon/less.png"></image>
+        </view>
+        <view wx:if="{{item.show }}" class="bot">
+          {{item.content}}
+        </view>
+      </view>
+    </block>
+  </view>
+
+
+
+  <view class='foot'>
+    <button open-type="contact" hover-class="none" type="primary"> 立即咨询 </button>
+  </view>
+</view>

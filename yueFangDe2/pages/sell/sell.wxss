@@ -1,0 +1,112 @@
+/* pages/sell/sell.wxss */
+.placeholder{
+  font-size: 28rpx;
+  color: #111;
+}
+.head{
+  position: relative;
+
+}
+image{
+  width: 100%;
+  height: 20vh;
+}
+.head .step{
+  position: absolute;
+  width: 90%;
+  height: 15vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.step>view{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.step .s1>view:nth-of-type(1){
+  color:#9AA6FF;
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  font-weight: normal;
+}
+.step .s1>view:nth-of-type(2){
+  color: #fff;
+}
+.step>view>view:nth-of-type(1){
+  color:#D5DAFF;
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #D5DAFF;
+  font-weight: normal;
+}
+.step>view>view:nth-of-type(2){
+  color: #D5DAFF;
+  font-size:11px;
+}
+.main{
+  margin-top: -6px;
+  background: #F0F0F0;
+  padding: 20px;
+}
+.main>view{
+  padding: 10px;
+  background: #fff;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.main>view>view{
+  width: 100px;
+  height: 26px;
+  line-height: 26px;
+  text-align: justify;
+  text-align-last: justify;
+  font-size: 14px;
+  color: #8D8D8D;
+  margin-right: 10px;
+}
+.main>view>input{
+  height: 26px;
+  line-height: 26px;
+}
+.main .m8>view{
+  width: 35vw;
+}
+.m8 .radio-group{
+  font-size: 18px;
+  height: 26px;
+  line-height: 26px;
+  color: #0B0B0B;
+}
+.m8 radio{
+  width: 34px;
+  margin-left: 10px;
+}
+
+
+.main .foot{
+  padding: 20px;
+  background: #f0f0f0;
+  text-align: center;
+}
+.foot button{
+  background: #4A94FF;
+  width:150px;
+  font-size: 14px;
+}
+

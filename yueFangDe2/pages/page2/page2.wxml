@@ -1,0 +1,95 @@
+<!--pages/page2/page2.wxml-->
+<!-- 企业培训 -->
+<!-- <view class='all'>
+  <view class='head'>
+    <text>私募基金的税务管理与策划思路</text>
+  </view>
+  <view class='main'>
+    <view class='main1'>
+      <view class='left'>
+        述
+      </view>
+      <view>
+        <view class='title'>
+          私募基金组织形式的税务分析概述
+        </view>
+        <view>1、私募基金——有限合伙制</view>
+        <view>2、私募基金——公司制</view>
+        <view>3、私募基金——契约型</view>
+      </view>
+    </view>
+    <view class='main2'>
+      <view class='left'>
+        析
+      </view>
+      <view>
+        <view class='title'>
+          私募基金组织形式的税务分析概述
+        </view>
+        <view>1、创投企业与天使个人投资抵扣所得税案例分析</view>
+        <view>—“投资满2年”的解释</view>
+        <view>—“投资额”的计算</view>
+        <view>—可用于抵扣的所得范围</view>
+        <view>2、公司制私募基金的税务影响</view>
+        <view>—企业所得税</view>
+        <view>—个人所得税</view>
+        <view>—增值税</view>
+        <view>3、有限合伙制私募基金的税务影响</view>
+        <view>—企业所得税</view>
+        <view>—个人所得税</view>
+        <view>—增值税</view>
+        <view>4、契约型私募基金的税务影响</view>
+        <view>—企业所得税</view>
+        <view>—个人所得税</view>
+        <view>—增值税</view>
+      </view>
+    </view>
+    <view class='main3'>
+      <view class='left'>
+        思
+      </view>
+      <view>
+        <view class='title'>
+          私募基金组织形式的税务分析概述
+        </view>
+        <view>1、私募基金——有限合伙制</view>
+        <view>2、私募基金——公司制</view>
+        <view>3、私募基金——契约型</view>
+      </view>
+    </view>
+    <view class='main4'>
+      <view class='left'>
+        解
+      </view>
+      <view>
+        <view class='title'>
+          私募基金组织形式的税务分析概述
+        </view>
+      </view>
+    </view>
+    <view class='main5'>
+      <view class='left'>
+        答
+      </view>
+      <view>
+        <view class='title'>
+          私募基金组织形式的税务分析概述
+        </view>
+      </view>
+    </view>
+  </view>
+</view> -->
+<view class='all'>
+  <view class='head'>
+    <image src='../images/img/企业培训@2x.png'></image>
+  </view>
+  <view class='foot'>
+    <button type="primary" bindtap="primary"> 立即咨询 </button>
+  </view>
+</view>
+
+
+
+
+
+

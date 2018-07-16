@@ -1,0 +1,31 @@
+<!--pages/message/message.wxml-->
+<view class='all'>
+
+  <view class='main'>
+    <view class='m1' wx:for='{{con}}'>
+      <view class='title'>{{item.acten_name}}</view>
+      <input class='ipt' bindinput="ipt" data-id='{{item.acten_id}}' value='{{item.val}}' placeholder='请输入{{item.acten_name}}'/>
+    </view>
+    <!-- <view class='m2'>
+      <view class='title'>联系方式</view>
+      <input class='ipt' value='' placeholder='请输入联系方式'/>
+    </view>
+    <view class='m3'>
+      <view class='title'>公司名称</view>
+      <input class='ipt' value='' placeholder='请输入公司名称'/>
+    </view>
+    <view class='m4'>
+      <view class='title'>职务</view>
+      <input class='ipt' value='' placeholder='请输入职务'/>
+    </view>
+    <view class='m5'>
+      <view class='title'>邮箱</view>
+      <input class='ipt' value='' placeholder='请输入邮箱'/>
+    </view> -->
+  </view>
+
+  <view class='foot'>
+    <button type="primary" bindtap='baoming' open-type="contact" hover-class="none"> 立即报名 </button>
+  </view>
+</view>
+

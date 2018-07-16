@@ -1,0 +1,10 @@
+<!--pages/record/record.wxml-->
+<view class='all'>
+  <view class='head'>
+    <!-- <image src='../images/img/登记备案@2x.png'></image> -->
+    <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/97f907a4df34602ac59f0f84409af960.png'></image>
+  </view>
+  <view class='foot'>
+    <button type="primary"  open-type="contact" hover-class="none"> 立即咨询 </button>
+  </view>
+</view>

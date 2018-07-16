@@ -1,0 +1,65 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs", 
+    "pages/publish/publish",
+    "pages/consult/consult",
+    "pages/recruitmess/recruitmess",
+    "pages/train/train",
+    "pages/hunting/hunting",
+    "pages/regist/regist",
+    "pages/change/change",
+    "pages/combine/combine",
+    "pages/record/record",
+    "pages/recordfirst/recordfirst",
+    "pages/sell/sell",
+    "pages/recruit/recruit",
+    "pages/merge/merge",
+    "pages/person/person",
+    "pages/personmsg/personmsg",
+    "pages/design/design",
+    "pages/group/group",
+    "pages/message/message",
+    "pages/detail/detail",
+    "pages/hightrain/hightrain",
+    "pages/meeting/meeting",
+    "pages/outsource/outsource",
+    "pages/baoming/baoming",
+    "pages/news/news"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "backgroundColor": "#eeeeee",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "悦方淂金服",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "悦方淂金服",
+        "iconPath":"/pages/images/icon/icon-weiyuefangde@2x.png",
+        "selectedIconPath":"/pages/images/icon/icon-yuefangde@2x.png"
+      },
+      {
+        "pagePath": "pages/consult/consult",
+        "text": "在线咨询",
+        "iconPath": "/pages/images/icon/icon-zaixian@2x.png",
+        "selectedIconPath": "/pages/images/icon/icon-zaixianzixun@2x.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "需求发布",
+        "iconPath": "/pages/images/icon/icon-xuqiu@2x.png",
+        "selectedIconPath": "/pages/images/icon/icon-xuqiufabu@2x.png"
+      }
+    ],
+    "color":"#C9CACA",
+    "selectedColor":"#4A94FF",
+    "backgroundColor":"#fff",
+    "borderStyle":"black"
+  },
+  "debug":false
+  
+}

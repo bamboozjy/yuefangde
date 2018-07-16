@@ -1,0 +1,39 @@
+<!--pages/group/group.wxml-->
+
+<view class='main'>
+    <view class='m1'>
+      <view>
+        <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/cdbb93b11c46cdc81ce5999965b4a605.png?x-oss-process=image/resize,h_168'></image>
+        <!-- <image src='../images/img/人才方@2x.png'></image> -->
+        <view class='title'>群聊名称群聊名称</view>
+      </view>
+      <view class='add'>立即加入</view>
+    </view>
+    <view class='m2'>
+      <view>
+        <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/cdbb93b11c46cdc81ce5999965b4a605.png?x-oss-process=image/resize,h_168'></image>
+        <!-- <image src='../images/img/人才方@2x.png'></image> -->
+        <view class='title'>群聊名称群聊名称</view>
+      </view>
+      <view class='add'>立即加入</view>
+    </view>
+    <view class='m3'>
+      <view>
+        <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/cdbb93b11c46cdc81ce5999965b4a605.png?x-oss-process=image/resize,h_168'></image>
+        <!-- <image src='../images/img/人才方@2x.png'></image> -->
+        <view class='title'>群聊名称群聊名称</view>
+      </view>
+      <view class='add'>立即加入</view>
+    </view>
+    <view class='m4'>
+      <view>
+        <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/cdbb93b11c46cdc81ce5999965b4a605.png?x-oss-process=image/resize,h_168'></image>
+        <!-- <image src='../images/img/人才方@2x.png'></image> -->
+        <view class='title'>群聊名称群聊名称</view>
+      </view>
+      <view class='add'>立即加入</view>
+    </view>
+    
+  </view>
+
+

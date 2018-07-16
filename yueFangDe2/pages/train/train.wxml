@@ -1,0 +1,10 @@
+<!--pages/train/train.wxml-->
+<view class='all'>
+  <view class='head'>
+    <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/cee741aee08ab502204e6570f0cac69c.png'></image>
+    <!-- <image src='../images/img/企业培训@2x.png'></image> -->
+  </view>
+  <view class='foot'>
+    <button type="primary" open-type="contact" hover-class="none"> 立即咨询 </button>
+  </view>
+</view>

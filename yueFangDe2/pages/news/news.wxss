@@ -1,0 +1,74 @@
+/* pages/news/news.wxss */
+.all{
+  padding: 10rpx 25rpx 0;
+  background: #FFF;
+  border-top: 1px solid #F0F0F0;
+}
+.header{
+  padding: 20rpx 0;
+  border-bottom: 1px solid #F0F0F0;
+
+}
+.header .tit{
+  color: #090909;
+  font-size: 32rpx;
+  line-height: 46rpx;
+  margin-bottom: 30rpx;
+}
+.header .time{
+  color: #A0A0A0;
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+}
+.main{
+  padding: 50rpx 0;
+}
+
+
+
+
+
+
+.foot{
+  background: #F4F4F4;
+  padding: 50rpx 25rpx;
+}
+.foot .nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot .nav .good{
+  font-size: 32rpx;
+  color: #9A9A9A;
+  padding: 6rpx 15rpx;
+  border-left: 6rpx solid #7BB6A6;
+}
+.foot .nav .write{
+  font-size: 32rpx;
+  color: #7BB6A6;
+}
+.foot .content{
+  padding: 20rpx 0;
+}
+.foot .content .items{
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.foot .items .img image{
+  width: 60rpx;
+  height:60rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+}
+.foot .items .user{
+  color: #9A9A9A;
+  font-size: 28rpx;
+  margin-bottom: 30rpx;
+}
+.foot .items .user_con{
+  color: #333333;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  margin-bottom: 30rpx;
+}

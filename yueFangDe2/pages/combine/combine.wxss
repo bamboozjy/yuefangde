@@ -1,0 +1,75 @@
+/* pages/combine/combine.wxss */
+image{
+  width: 750rpx;
+  height: 360rpx;
+  display: block; /* 解决图片撑大盒子，导致图片下方多6px */
+}
+.foot{
+  padding: 15px;
+  border-top:1px solid #ccc;
+  margin-top: -6px;
+}
+.foot button{
+  background: #4A94FF;
+}
+.banner {
+  width: 100%;
+  height: 360rpx;
+}
+/*文字  */
+.main{
+  width: 100%;
+  background-color: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24rpx;
+}
+.main .first{
+  width:702rpx;
+   height: 190rpx; 
+  background:rgba(255,255,255,1); 
+  border-radius:10rpx;
+  box-shadow:0rpx 0rpx 0rpx rgba(224,224,224,0.82);
+  margin-top: 20rpx;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main .first .text{
+  font-family:PingFangSC-Regular;
+  color:rgba(12,12,12,1);
+  vertical-align: middle;
+  padding: 30rpx 0;
+  display: flex;
+  
+} 
+.main .first .text text{
+  font-size:28rpx;
+  line-height:42rpx;
+}
+.main .height{
+   height: 230rpx; 
+}
+.main .height .num{
+  line-height: 230rpx;
+}
+.main .num{
+  width:40rpx;
+  float: left;
+  height: auto;
+  background: #4A94FF;
+  text-align: center;
+  line-height: 190rpx;
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+  color: #FFFFFF;
+  margin-right: 21rpx;
+}
+.main .first .pad{
+  padding: 50rpx 0;
+}
+.main .last{
+  margin-bottom: 28rpx;
+}
+.main .yellow .num{
+  background-color: #FFD74A;
+}

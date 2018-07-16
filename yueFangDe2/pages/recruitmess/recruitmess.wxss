@@ -1,0 +1,79 @@
+/* pages/recruitmess/recruitmess.wxss */
+.all{
+  background: #f4f4f4;
+  height: 100vh;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  background: #4A94FF;
+  color: #fff;
+  font-weight: normal;
+}
+.header>view{
+  display: flex;
+  align-items: center;
+  
+}
+.header image{
+  width: 18px;
+  height: 16px;
+}
+.header text{
+  font-size: 28rpx;
+}
+.header>view:last-of-type{
+  border: 0;
+}
+.wline {
+  background-color: #9BC4FF;
+  width: 1px;
+  height: 40rpx;
+}
+.main{
+
+}
+.money{
+  color: #4A94FF;
+}
+.main>view{
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.main>view>view{
+  padding: 3px;
+}
+
+.main>view>view:nth-of-type(1){
+  font-size: 16px;
+  color: #0a0a0a;
+  height: 20px;
+  line-height: 20px;
+}
+.main>view>view:nth-of-type(1){
+  display: flex;
+  justify-content: space-between;
+}
+.main>view>view:nth-of-type(2){
+  font-size: 14px;
+  color: #3a3a3a;
+  height: 18px;
+}
+.main>view>view:nth-of-type(3){
+  font-size: 13px;
+  height: 16px;
+}
+.main>view>view:nth-of-type(3) text{
+  padding: 1px 3px;
+  margin-right: 3px;
+  background: #8EBCFF;
+  border-radius: 1px;
+  color: #fff;
+}
+.main>view>view:nth-of-type(4){
+  font-size: 13px;
+  color: #3a3a3a;
+  height: 16px;
+}

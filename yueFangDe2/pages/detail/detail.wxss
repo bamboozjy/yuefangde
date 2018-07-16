@@ -1,0 +1,60 @@
+/* pages/detail/detail.wxss */
+.all{
+  background: #fff;
+  padding:0px 10px 10px;
+  height: 100vh;
+  border-top: 1px solid #ccc;
+}
+.main{
+  padding: 10px 14px;
+}
+.main>view{
+  background: #fff;
+  padding: 5px 0;
+}
+.main .m1 .title{
+  color: #0C0C0C;
+  font-size: 15px;
+  padding: 5px 0;
+  line-height: 20px;
+}
+.con{
+  line-height: 18px;
+}
+.main .m1 .time{
+  color: #999;
+  font-size: 12px;
+  margin-left: 0;
+  margin-bottom: 40rpx;
+}
+.main>view>view:nth-of-type(1){
+  font-size: 12px;
+  color: #4A94FF;
+  padding: 5px 0 ;
+}
+.main>view>view:nth-of-type(1) text:nth-of-type(1){
+  font-size: 9px;
+  width: 15px;
+  padding: 0 5px;
+  height: 15px;
+  line-height: 15px;
+  border-radius: 50%;
+  background: #4A94FF;
+  color: #fff;
+  margin-right: 10px;
+}
+.main>view>view:nth-of-type(2){
+  margin-left: 7vw;
+}
+.main>view>view:nth-of-type(2){
+  font-size: 12px;
+  color: #0D0D0D;
+}
+.foot{
+  padding: 20px;
+}
+.foot button{
+  width:100%;
+  background: #4A94FF;
+  font-size: 14px;
+}

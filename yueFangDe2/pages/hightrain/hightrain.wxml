@@ -1,0 +1,41 @@
+<!--pages/hightrain/hightrain.wxml-->
+<view class='all'>
+  <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/6ccb237e6e88e7cfb0efaf3feef141d4.png' class='top'></image>
+  <view class='main'>
+    <view class='m1'>
+      <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/9d3ca3cefad4433917ffeb7afec3bbe6.png' bindtap='detail'></image>
+      <view bindtap='detail'>
+        <view class='title'>政府出资产业投资产品设计投资产品设计</view>
+        <view class='con'>学习时长：3个月</view>
+      </view>
+      <view class='add' bindtap='enlist'>立即报名</view>
+    </view>
+    <view class='m2'>
+      <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/dbb56b0f3fb90f59d44958906f7248eb.png' bindtap='detail'></image>
+      <view bindtap='detail'>
+        <view class='title'>政府出资产业投资产品设计投资产品设计</view>
+        <view class='con'>学习时长：3个月</view>
+      </view>
+      <view class='add' bindtap='enlist'>立即报名</view>
+    </view>
+    <view class='m3'>
+      <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/057639725ebed9d2b860ae9d40eb15b6.png' bindtap='detail'></image>
+      <view bindtap='detail'>
+        <view class='title'>政府出资产业投资产品设计投资产品设计</view>
+        <view class='con'>学习时长：3个月</view>
+      </view>
+      <view class='add' bindtap='enlist'>立即报名</view>
+    </view>
+    <view class='m4'>
+      <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/658eb7024da5c7720365715573d574b7.png' bindtap='detail'></image>
+      <view bindtap='detail'>
+        <view class='title'>政府出资产业投资产品设计投资产品设计</view>
+        <view class='con'>学习时长：3个月</view>
+      </view>
+      <view class='add' bindtap='enlist'>立即报名</view>
+    </view>
+    
+  </view>
+</view>
+
+  

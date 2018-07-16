@@ -1,0 +1,126 @@
+/* pages/baoming/baoming.wxss */
+.all{
+  background: #F4F4F4;
+  position: relative;
+  height: 100vh;
+}
+.top,.mid{
+  background: #FFF;
+}
+.top{
+  padding: 24rpx;
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.top image{
+  width:200rpx;
+  height:150rpx;
+  margin-right: 40rpx;
+}
+.top .box .title{
+  color: #0C0C0C;
+  font-size: 28rpx;
+  margin: 0 40rpx 30rpx 0;
+}
+.top .box .time{
+  color: #999999;
+  font-size: 24rpx;
+}
+
+.mid{
+  border: 1px solid #4A94FF;
+  border-radius: 10rpx;
+  padding: 40rpx 40rpx 40rpx 24rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.all .group{
+  border:none;
+}
+#active{
+  border: 1px solid #4A94FF;
+}
+.mid .left{
+  width: 550rpx;
+  margin-left: 30rpx;
+}
+.mid .left .title{
+  color: #0C0C0C;
+  font-size: 28rpx;
+  margin: 0 0rpx 10rpx 0;
+}
+.mid .left .money{
+  color: #4A94FF;
+  font-size: 28rpx;
+  margin: 0 0rpx 10rpx 0;
+}
+.mid .right{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+.mid .right .reduce{
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 30rpx;
+  font-size:  36rpx;
+  color: #aaa;
+  padding: 0;
+  background: #FFF;
+}
+.mid .right .add{
+  border: 1px solid #FF7054;
+  border-radius: 50%;
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 30rpx;
+  font-size:  36rpx;
+  color: #FF7054;
+  padding: 0;
+  background: #FFF;
+}
+.mid .right text{
+  padding: 0 20rpx;
+  font-size: 26rpx;
+  color: #0C0C0C;
+}
+
+
+.foot{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 80rpx;
+  background: #FFF;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 14rpx 20rpx;
+  width: 710rpx;
+}
+.foot .total{
+  font-size: 24rpx;
+  color: #0C0C0C;
+
+}
+.foot .total text{
+  color: #FF7054;
+}
+.foot .btn{
+  background: #4A94FF;
+  font-weight: normal;
+  font-size: 26rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  width: 170rpx;
+  margin-left: 30rpx;
+  color: #FFF;
+  border-radius: 10rpx;
+}

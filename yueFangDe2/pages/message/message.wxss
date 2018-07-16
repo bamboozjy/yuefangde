@@ -1,0 +1,41 @@
+/* pages/message/message.wxss */
+.all{
+  background: #F7F7F7;
+  padding: 1vh 0 0 0;
+  height: 99vh;
+}
+.main{
+
+}
+.main>view{
+  background: #fff;
+  border-bottom: 1px solid #F4F4F4;
+  padding: 0px 14px; 
+  display: flex;
+}
+.main>view>view{
+  font-size: 14px;
+  color: #9A9A9A;
+  width: 20vw;
+  margin-right: 20px;
+  text-align: justify;
+  text-align-last: justify;
+  height: 10vh;
+  line-height: 10vh;
+}
+.main>view>input{
+  font-size: 14px;
+  color: #0C0C0C;
+  height: 10vh;
+  line-height: 10vh;
+  width: 65vw;
+}
+.foot{
+  padding: 20px;
+}
+.foot button{
+  margin-top: 50px;
+  width:70%;
+  background: #4A94FF;
+  font-size: 14px;
+}

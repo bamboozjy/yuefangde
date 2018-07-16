@@ -1,0 +1,162 @@
+<!--index.wxml-->
+<!--<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="p1">
+    <text class="go1" bindtap="bindViewTap1">到p1</text>
+  </view>
+  <view class="p2">
+    <text class="go2" bindtap="bindViewTap2">到p2</text>
+  </view> 
+  <view class="p1">
+    <text class="go1" bindtap="bindViewTap1">到p1</text>
+  </view>
+</view>-->
+<view class="all">
+  <swiper indicator-dots="{{indicatorDots}}" class="lbt"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{item}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="top">
+    <view bindtap='register'>
+      <image src="../images/icon/dengjibeian@2x.png"/>
+      <text>登记备案</text>
+    </view>
+    <view bindtap='yunying'>
+      <image src="../images/icon/yunyingwaibao@2x.png"/>
+      <text>运营外包</text>
+    </view>
+    <view bindtap='gaoguan'>
+      <image src="../images/icon/gaoguanliepin@2x.png"/>
+      <text>高管猎聘</text>
+    </view>
+    <view bindtap='train'>
+      <image src="../images/icon/zhuanyepeixun@2x.png"/>
+      <text>专业培训</text>
+    </view>
+  </view>
+  <view class="middle-top">
+    <text data-id='1' class="jishi {{id==='1'?'active':''}}" bindtap="tab">私圈集市</text>
+    <text data-id='2' class="zixun {{id==='2'?'active':''}}" bindtap="tab">私募咨询</text>
+    <text data-id='3' class="baoming {{id==='3'?'active':''}}" bindtap="tab">活动报名</text>
+  </view>
+  <!-- 私圈集市 -->
+  <view class='jishi-content' wx:if="{{id==='1'?true:false}}">
+    <view>
+        <view bindtap='zhaopins'>
+          <image src="https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/19bf80e06ae755e5ed71faeaebe56181.png?x-oss-process=image/resize,h_168"/>
+          <!-- <image src="../images/img/招聘信息@2x.png"/> -->
+          <view>招·聘·信·息</view>
+        </view>
+        <view  bindtap='person'>
+          <image src="https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/33954aa1b4c64dd0fcb8adbdfaed3090.png?x-oss-process=image/resize,h_168"/>
+          <!-- <image src="../images/img/人才信息@2x.png"/> -->
+          <view>人·才·信·息</view>
+        </view>
+    </view>
+     <view>
+        <view  bindtap='merge'>
+          <image src="https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/f203069b2e9fb7a2e8ad9ac360204506.png?x-oss-process=image/resize,h_168"/>
+          <!-- <image src="../images/img/私募并购@2x.png"/> -->
+          <view>私·募·并·购</view>
+        </view>
+        <view bindtap='group'>
+          <image src="https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/a0044b5c4ed97b50ef8e64200ea304ee.png?x-oss-process=image/resize,h_168"/>
+          <!-- <image src="../images/img/金融圈群@2x.png"/> -->
+          <view>金·融·圈·群</view>
+        </view>
+    </view>
+  </view>
+  <!-- 私圈集市 -->
+
+
+  <!-- 私募咨询 -->
+  <view class="zixun-content" wx:if="{{id==='2'?true:false}}">
+    <view bindtap='bijiao'>
+      <image src="../images/icon/11.png"/>
+      <text>工商注册比较</text>
+    </view>
+    <view bindtap='recordfirst'>
+      <image src="../images/icon/22.png"/>
+      <text>首次登记备案</text>
+    </view>
+    <view bindtap='change'>
+      <image src="../images/icon/44.png"/>
+      <text>重大事项变更</text>
+    </view>
+    <view bindtap='design'>
+      <image src="../images/icon/33.png"/>
+      <text>基金产品设计</text>
+    </view>
+  </view>
+  <!-- 私募咨询 -->
+
+  <!-- 活动报名 -->
+  <view class="baoming"  wx:if="{{id==='3'?true:false}}">
+    <view class="middle-mid">
+      <view wx:if='{{showP}}' class='tips'>暂无活动</view>
+      <view class="middle-mid-t" bindtap='detail' wx:for='{{actives}}' data-id='{{item.acate_id}}' wx:key='{{item.acate_name}}'>
+        <view>
+          <image src='{{item.acate_icon_url}}'/>
+          <text>{{item.acate_name}}</text>
+        </view>
+        <view>
+          <text class='detail'>详情</text>
+        </view>
+      </view>
+      <!-- <view class="middle-mid-b" bindtap='details'>
+        <view>
+          <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/969311d74dc174f9a054f330b3254e7a.png?x-oss-process=image/resize,h_168'/>
+          <text>全国高端培训</text>
+        </view>
+        <view>
+          <text class='detail'>详情</text>
+        </view>
+      </view> -->
+    </view>
+    
+
+    <view class="middle-bot">
+      <view class="middle-bot-t">
+        <text>|</text> 今日头条
+      </view>
+      <view wx:if='{{showNo}}' class='tips'>暂无新闻</view>
+      <view class="middle-bot-b">
+        <view class="" wx:for="{{arr}}" bindtap='news' wx:key='{{item.article_id}}' data-id='{{item.article_id}}'>
+          <view>{{item.article_title}}</view>
+          <view>{{item.create_time}}</view>
+        </view>
+        <!-- <view class="">
+          <view>中国基金业协会洪磊会长《私募基金自律管理的逻辑上自律管理的逻辑上</view>
+          <view>2018-05-18</view>
+        </view>
+        <view class="">
+          <view>政府发布《国务院办公厅关于进一步压缩企业开办时间压缩企业开办时间</view>
+          <view>2018-05-18</view>
+        </view>
+        <view class="">
+          <view>中国基金业协会洪磊会长《私募基金自律管理的逻辑上自律管理的逻辑上</view>
+          <view>2018-05-18</view>
+        </view> -->
+      </view>
+      
+    </view>
+  </view>
+  <!-- 活动报名 -->
+
+
+
+</view>
+  

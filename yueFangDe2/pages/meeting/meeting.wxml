@@ -1,0 +1,41 @@
+<!--pages/meeting/meeting.wxml-->
+<view class='all'>
+  <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/c4639c1d45f9b98f150c0891891e1caf.png' class='top'></image>
+  <view class='main'>
+    <view class='m1' wx:for='{{list}}' wx:key='{{item.activity_id}}' >
+      <image src='{{item.activity_url}}' bindtap='detail' data-id='{{item.activity_id}}'></image>
+      <view bindtap='detail' data-id='{{item.activity_id}}' class='mid'>
+         <view class='title'>{{item.activity_content}}</view> 
+        <!-- <rich-text class='title' nodes="{{item.activity_content}}"></rich-text> -->
+        <view class='con'>{{item.activity_start}}</view>
+      </view>
+      <view class='add' bindtap='enlist' data-id='{{item.activity_id}}'>立即报名</view>
+    </view>
+    <!-- <view class='m2'>
+      <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/dbb56b0f3fb90f59d44958906f7248eb.png' bindtap='detail'></image>
+      <view bindtap='detail'>
+        <view class='title'>私募管理的最佳方案</view>
+        <view class='con'>2018-05-21  13:30</view>
+      </view>
+      <view class='add' bindtap='enlist'>立即报名</view>
+    </view>
+    <view class='m3'>
+      <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/057639725ebed9d2b860ae9d40eb15b6.png' bindtap='detail'></image>
+      <view bindtap='detail'>
+        <view class='title'>第二届中国职业交易大会中国职业交易大会</view>
+        <view class='con'>2018-05-20  08:30</view>
+      </view>
+      <view class='add' bindtap='enlist'>立即报名</view>
+    </view>
+    <view class='m4'>
+      <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/658eb7024da5c7720365715573d574b7.png' bindtap='detail'></image>
+      <view bindtap='detail'>
+        <view class='title'>私募管理的最佳方案</view>
+        <view class='con'>2018-05-21  13:30</view>
+      </view>
+      <view class='add' bindtap='enlist'>立即报名</view>
+    </view> -->
+    
+  </view>
+</view>
+

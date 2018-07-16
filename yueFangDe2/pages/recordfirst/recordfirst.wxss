@@ -1,0 +1,45 @@
+/* pages/recordfirst/recordfirst.wxss */
+
+image{
+  display: block;
+  width: 750rpx;
+  height: 360rpx;
+}
+.main{
+  /* margin-top: -5px; */
+  background: #F0F0F0;
+  padding: 10px 15px 5px;
+}
+.main>view{
+  padding: 5px 10px 10px;
+  background: #fff;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.title{
+  color: #0C0C0C;
+  font-size: 15px;
+  padding: 5px 0;
+}
+.con{
+  color: #2F2F2F;
+  font-size: 12px;
+}
+.main .borders,.bordery{
+  margin: 0px 0 10px;
+  width: 30px;
+  border-bottom: 2px solid #4A94FF;
+}
+.bordery{
+  border-bottom: 2px solid #FFD74A;
+}
+
+.foot{
+  padding: 15px;
+  border-top:1px solid #ccc;
+}
+.foot button{
+  background: #4A94FF;
+  font-size: 14px;
+}

@@ -1,0 +1,53 @@
+/* pages/page2/page2.wxss */
+/* .head{
+  text-align: center;
+  background: #66c;
+}
+.head text{
+  font-size: 17px;
+  line-height: 50px;
+  color: #fff;
+}
+.main{
+  padding: 12px;
+}
+.main>view{
+  display: flex;
+}
+.main .left{
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+  border-radius: 50%;
+  background: #ff0;
+  margin-right: 10px;
+}
+.main>view>view:nth-of-type(2){
+
+}
+.main>view>view:nth-of-type(2) title{
+  font-size: 15px;
+  color: #0c0c0c;
+  margin: 10px 5px;
+}
+.main>view>view:nth-of-type(2)>view{
+  color: #8a8a8a;
+  font-size: 12px;
+} */
+image{
+  width: 100%;
+  height: 150vh;
+}
+.foot{
+  padding: 15px;
+  border-top:1px solid #ccc;
+}
+.foot button{
+  background: #4A94FF;
+}
+
+
+

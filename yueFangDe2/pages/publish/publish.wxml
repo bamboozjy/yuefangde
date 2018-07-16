@@ -1,0 +1,41 @@
+<!--pages/publish/publish.wxml-->
+<view class="all">
+    <swiper indicator-dots="{{indicatorDots}}" class="lbt"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key='{{item}}'>
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class='content'>
+      <view>
+        <view bindtap='zhaopin'>
+          <!-- <image src="../images/img/111@2x.png"/> -->
+          <image src="https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/30f4c1fe17832469f40776dc170e20c1.png?x-oss-process=image/resize,h_168"/>
+          <!-- <image src="../images/img/招聘方@2x.png"/> -->
+        </view>
+        <view bindtap='person'>
+          <!-- <image src="../images/img/222@2x.png"/> -->
+          <image src="https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/d90e227dcf43932475509f48600dd7b4.png?x-oss-process=image/resize,h_168"/>
+          <!-- <image src="../images/img/人才方@2x.png"/> -->
+        </view>
+      </view>
+      <view>
+        <view bindtap='merge'>
+          <!-- <image src="../images/img/333@2x.png"/> -->
+          <image src="https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/b71d0213c11d62756b68b2309bd9dd1c.png?x-oss-process=image/resize,h_168"/>
+          <!-- <image src="../images/img/并购方@2x.png"/> -->
+        </view>
+        <view bindtap='churang'>
+          <!-- <image src="../images/img/444@2x.png"/> -->
+          <image src="https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/cb0a0e763677d2522195fc21bd11b0c0.png?x-oss-process=image/resize,h_168"/>          
+          <!-- <image src="../images/img/出让方@2x.png"/>           -->
+        </view>
+      </view>
+  </view>
+
+
+
+</view>

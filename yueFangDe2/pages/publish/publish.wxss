@@ -1,0 +1,42 @@
+/* pages/publish/publish.wxss */
+.all{
+  background: #F4F4F4;
+  color: #0C0C0C;
+  height: 100vh;
+}
+.lbt{
+  height: 200px; 
+  width: 100%;
+}
+.slide-image{
+  width: 100%;
+}
+.content{
+  padding: 8px 15px;
+}
+.content>view{
+  display: flex;
+  justify-content: space-between;
+}
+.content>view>view{
+  overflow: hidden;
+  width: 49%;
+
+}
+.content>view>view image{
+  width: 100%;
+  height: 120px; 
+}
+
+.content>view:nth-of-type(1){
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+

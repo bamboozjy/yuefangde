@@ -1,0 +1,54 @@
+<!--pages/combine/combine.wxml-->
+<view class='all'>
+  <view class='head'>
+  <image  class='banner' src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/d962a319e5dcec4f0f814dc221a2655d.png'></image>
+    <!-- <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/d3c85e7a69ca88ada11bb589464d66d2.png'></image> -->
+    <!-- <image src='../images/img/企业培训@2x.png'></image> -->
+    <!--文字  -->
+    <view class='main'>
+      <view class='first'>
+        <view class='num'>1</view>   
+        <view class='text'>
+          <text>由悦方淂金服确定买家自身的经营能力（资金充足，替换具备三年以上从业经历且有基金从业资格的法定代表人、风控负责人及其他补充人员）。</text>
+        </view>
+          
+      </view>
+       <view class='first yellow'>
+        <view class='num'>2</view>
+        <view class='text pad'>
+          <text>悦方淂金服向卖家获得基本的尽调数据，确保卖方经营无异常，无负债。</text>  
+        </view>
+      </view>
+      <view class='first'>
+        <view class='num'>3</view>
+        <view class='text pad'>
+        <text>买家与悦方淂金服签订委托收购顾问协议，支付首期顾问费。</text>  
+        </view>
+      </view>
+      <view class='first yellow height'>
+        <view class='num'>4</view>
+        <view class='text'>
+        <text>悦方淂金服与卖家签订协议，向卖家支付定金，获得所有公司营业执照、公章财务章法人章、财务报表、资管系统账号等信息，卖家确保变更并保证对历史经营情况负责。</text> 
+        </view> 
+      </view>
+      <view class='first height'>
+        <view class='num'>5</view>
+        <view class='text'>
+          <text>买家与卖家签订股权转让协议，开始进行工商变更流程（两到三周）。变更好之后买家即可新增中基协高管，进行发产品流程，同时实际控制人重大事项变更上报流程同步进行（两个月）。</text>  
+        </view>
+      </view>
+      <view class='first last yellow'>
+        <view class='num'>6</view>
+        <view class='text'>
+          <text>中基协变更完成后，买家向悦方淂金服支付顾问费余款，买家向卖家支付股权转让费余款，结束整个交易过程。
+</text>  
+        </view>
+      </view> 
+    </view>
+
+
+  </view>
+  <view class='foot'>
+    <button type="primary" open-type="contact" hover-class="none"> 立即咨询 </button>
+  </view>
+</view>

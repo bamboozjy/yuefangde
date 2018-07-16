@@ -1,0 +1,10 @@
+<!--pages/outsource/outsource.wxml-->
+<view class='all'>
+  <view class='head'>
+    <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/3bab4c7247e1e4070653093e99a9e6c0.png'></image>
+    <!-- <image src='../images/img/运营外包@2x.png'></image> -->
+  </view>
+  <view class='foot'>
+    <button type="primary"  open-type="contact" hover-class="none"> 立即咨询 </button>
+  </view>
+</view>

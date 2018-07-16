@@ -1,0 +1,10 @@
+<!--pages/hunting/hunting.wxml-->
+<view class='all'>
+  <view class='head'>
+    <image src='https://caitouxia.oss-cn-hangzhou.aliyuncs.com/caitouxia_shop/media_library/aa2d4d3cd15c349f9b69725d23911f29.png'></image>
+    <!-- <image src='../images/img/高管猎聘@2x.png'></image> -->
+  </view>
+  <view class='foot'>
+    <button type="primary"  open-type="contact" hover-class="none"> 立即咨询 </button>
+  </view>
+</view>

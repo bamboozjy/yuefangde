@@ -1,0 +1,12 @@
+/* pages/train/train.wxss */
+image{
+  width: 750rpx;
+  height: 2160rpx;
+}
+.foot{
+  padding: 15px;
+  border-top:1px solid #ccc;
+}
+.foot button{
+  background: #4A94FF;
+}

@@ -1,0 +1,22 @@
+<!--pages/consult/consult.wxml-->
+<view class='all'>
+  <view class='box'>
+    <button class='head' open-type="contact" hover-class="none">
+      <image class='p1' src='../images/icon/icon-zaixian2@2x.png'></image>
+      <text>在线咨询</text>
+    </button>
+    <button class='main' bindtap='wxkf' hover-class="none">
+      <image class='p2' src='../images/icon/icon-weixin@2x.png'></image>
+      <text>微信客服</text>
+    </button>
+    <button class='foot' bindtap='kfdh' hover-class="none">
+      <image class='p3' src='../images/icon/icon-dianhua@2x.png'></image>
+      <text>客服电话</text>
+    </button>
+  </view>
+  
+  <view class='code' wx:if='{{code}}' bindtap='clicks'>
+     <image src='{{kefu.url}}'></image> 
+    <!-- <image src='../images/icon/11.png'></image> -->
+  </view>
+</view>
